@@ -22,7 +22,7 @@ function formatSpeakerNotes() {
 
       if (plainText.trim().length > 0) {
         const style = textRange.getTextStyle();
-        style.setFontSize(14);
+        style.setFontSize(12);
         style.setFontFamily("Arial");
         style.setForegroundColor("#000000");
         style.setBold(false);
